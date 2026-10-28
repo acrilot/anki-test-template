@@ -47,9 +47,9 @@ Bu kılavuz Anki üzerinde otomatik karıştırılan çoktan seçmeli test kart 
 
 ### 1.2. Şablon ve Tasarım Kodlarının Eklenmesi
 1. Not Tipleri penceresinde `Test Formatı` seçiliyken sağdaki **Cards** (Kartlar) butonuna tıklayın.
-2. Açılan pencerede üst kısımdan **Front Template** sekmesini seçin; mevcut kodları silerek `Front Template.html` dosyasının içeriğini yapıştırın.
-3. Üst kısımdan **Back Template** sekmesini seçin; mevcut kodları silerek `Back Template.html` dosyasının içeriğini yapıştırın.
-4. Üst kısımdan **Styling** sekmesini seçin; mevcut kodları silerek `Styling.css` dosyasının içeriğini yapıştırın.
+2. Açılan pencerede üst kısımdan **Front Template** sekmesini seçin; mevcut kodları silerek [Front Template.html](https://github.com/acrilot/anki-test-template/blob/main/Front%20Template.html) dosyasının içeriğini yapıştırın.
+3. Üst kısımdan **Back Template** sekmesini seçin; mevcut kodları silerek [Back Template.html](https://github.com/acrilot/anki-test-template/blob/main/Back%20Template.html) dosyasının içeriğini yapıştırın.
+4. Üst kısımdan **Styling** sekmesini seçin; mevcut kodları silerek [Styling.css](https://github.com/acrilot/anki-test-template/blob/main/Styling.css) dosyasının içeriğini yapıştırın.
 5. **Save** butonuna tıklayarak değişiklikleri kaydedin ve pencereleri kapatın.
 
 ---
@@ -72,9 +72,9 @@ Bu kılavuz Anki üzerinde otomatik karıştırılan çoktan seçmeli test kart 
 
 ### 2.2. Şablon ve Tasarım Kodlarının Eklenmesi
 1. `Test Formatı` not tipinin sağındaki düzenleme (kalem) simgesine dokunun.
-2. Varsayılan olarak **Front** sekmesi açılacaktır; ekrandaki mevcut kodları silip `Front Template.html` dosyasının içeriğini yapıştırın.
-3. Ekranın altından **Back** sekmesini seçin; ekrandaki kodları silip `Back Template.html` dosyasının içeriğini yapıştırın.
-4. Ekranın altından **Styling** sekmesini seçin; ekrandaki kodları silip `Styling.css` dosyasının içeriğini yapıştırın.
+2. Varsayılan olarak **Front** sekmesi açılacaktır; ekrandaki mevcut kodları silip [Front Template.html](https://github.com/acrilot/anki-test-template/blob/main/Front%20Template.html) dosyasının içeriğini yapıştırın.
+3. Ekranın altından **Back** sekmesini seçin; ekrandaki kodları silip [Back Template.html](https://github.com/acrilot/anki-test-template/blob/main/Back%20Template.html) dosyasının içeriğini yapıştırın.
+4. Ekranın altından **Styling** sekmesini seçin; ekrandaki kodları silip [Styling.css](https://github.com/acrilot/anki-test-template/blob/main/Styling.css) dosyasının içeriğini yapıştırın.
 5. Ekranın üst tarafındaki onay (✓) simgesine dokunarak değişiklikleri kaydedin ve çıkın.
 
 ---
