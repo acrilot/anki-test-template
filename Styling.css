@@ -1,0 +1,59 @@
+/* --- AYDINLIK MOD STANDART AYARLAR --- */
+.card {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+.soru-kutusu {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+}
+
+.secenek-kapsayici {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secenek {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fafafa;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s;
+}
+
+.secenek:active {
+    background-color: #e0e0e0;
+}
+
+
+/* --- KARANLIK MOD ÖZEL AYARLARI --- */
+.nightMode .card {
+    color: #e0e0e0;
+    background-color: #2d2d2d;
+}
+
+.nightMode .soru-kutusu {
+    background-color: #38424d;
+    color: #ffffff;
+}
+
+.nightMode .secenek {
+    border: 2px solid #555555;
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+}
+
+.nightMode .secenek:active {
+    background-color: #505050;
+}

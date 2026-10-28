@@ -1,0 +1,59 @@
+<div class="soru-kutusu">{{Soru}}</div>
+
+<div id="secenekler" class="secenek-kapsayici">
+    <div class="secenek" data-cevap="dogru">{{DogruCevap}}</div>
+    <div class="secenek" data-cevap="yanlis">{{Celdirici1}}</div>
+    <div class="secenek" data-cevap="yanlis">{{Celdirici2}}</div>
+    <div class="secenek" data-cevap="yanlis">{{Celdirici3}}</div>
+</div>
+
+<script>
+var container = document.getElementById("secenekler");
+var elementsArray = Array.prototype.slice.call(container.getElementsByClassName('secenek'));
+  
+elementsArray.forEach(function(element){
+  container.removeChild(element);
+});
+  
+for (var i = elementsArray.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = elementsArray[i];
+    elementsArray[i] = elementsArray[j];
+    elementsArray[j] = temp;
+}
+  
+elementsArray.forEach(function(element){
+    container.appendChild(element);
+    
+    element.onclick = function() {
+        var allOptions = document.getElementsByClassName("secenek");
+        for(var k=0; k<allOptions.length; k++) {
+            allOptions[k].style.pointerEvents = "none"; 
+            
+            if(allOptions[k].getAttribute("data-cevap") === "dogru") {
+                allOptions[k].style.backgroundColor = "#4CAF50"; 
+                allOptions[k].style.color = "white";
+                allOptions[k].style.borderColor = "#4CAF50";
+            }
+        }
+        
+        if(this.getAttribute("data-cevap") === "yanlis") {
+            this.style.backgroundColor = "#F44336"; 
+            this.style.color = "white";
+            this.style.borderColor = "#F44336";
+        }
+
+        setTimeout(function() {
+            if (typeof pycmd !== "undefined") {
+                pycmd("ans"); // Masaüstü Anki için tetikleyici
+            } else if (typeof buttonAnswer !== "undefined") {
+                buttonAnswer(); // Eski AnkiDroid için tetikleyici
+            } else if (typeof AnkiDroidJS !== "undefined" && AnkiDroidJS.ankiShowAnswer) {
+                AnkiDroidJS.ankiShowAnswer(); // Yeni AnkiDroid için tetikleyici
+            } else {
+                window.location.href = "signal:show_answer"; // Alternatif mobil tetikleyici
+            }
+        }, 500); 
+    };
+});
+</script>
