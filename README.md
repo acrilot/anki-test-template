@@ -5,9 +5,8 @@ Bu kılavuz Anki üzerinde otomatik karıştırılan çoktan seçmeli test kart 
 ---
 
 ## İçindekiler
-- [Anki Çoktan Seçmeli Test Şablonu Kurulum Kılavuzu](#anki-çoktan-seçmeli-test-şablonu-kurulum-kılavuzu)
-  - [İçindekiler](#i̇çindekiler)
-  - [1. Masaüstü Uygulaması (Anki Desktop)](#1-masaüstü-uygulaması-anki-desktop)
+- [Ekran Görüntüleri](#ekran-görüntüleri)
+- [1. Masaüstü Uygulaması (Anki Desktop)](#1-masaüstü-uygulaması-anki-desktop)
     - [1.1. Not Tipinin Oluşturulması](#11-not-tipinin-oluşturulması)
     - [1.2. Şablon ve Tasarım Kodlarının Eklenmesi](#12-şablon-ve-tasarım-kodlarının-eklenmesi)
   - [2. Mobil Uygulama (AnkiDroid)](#2-mobil-uygulama-ankidroid)
@@ -26,6 +25,18 @@ Bu kılavuz Anki üzerinde otomatik karıştırılan çoktan seçmeli test kart 
     - [5.3. Çıktıyı Dosyaya Dönüştürme ve İçe Aktarma](#53-çıktıyı-dosyaya-dönüştürme-ve-i̇çe-aktarma)
 
 ---
+
+## Ekran Görüntüleri
+
+### Anki Desktop
+| Soru Ekranı | Cevap Ekranı |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c92a9493-5fd9-4ce1-9a9e-f97712496207" width="450" alt="Anki Desktop Soru" /> | <img src="https://github.com/user-attachments/assets/6d6eec45-8b7a-44bd-96ae-5443631124c1" width="450" alt="Anki Desktop Cevap" /> |
+
+### AnkiDroid
+| Soru Ekranı | Cevap Ekranı |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c61479f9-21bd-4858-9b4e-744fc8b39fa0" width="280" alt="AnkiDroid Soru" /> | <img src="https://github.com/user-attachments/assets/65c04f12-5c79-4ddd-9a1e-be08f5c5e73b" width="280" alt="AnkiDroid Cevap" /> |
 
 ## 1. Masaüstü Uygulaması (Anki Desktop)
 
