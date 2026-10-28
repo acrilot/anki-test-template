@@ -1,4 +1,4 @@
-/* --- AYDINLIK MOD STANDART AYARLAR --- */
+/* --- AYDINLIK MOD --- */
 .card {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
@@ -37,7 +37,7 @@
 }
 
 
-/* --- KARANLIK MOD ÖZEL AYARLARI --- */
+/* --- KARANLIK MOD --- */
 .nightMode .card {
     color: #e0e0e0;
     background-color: #2d2d2d;
